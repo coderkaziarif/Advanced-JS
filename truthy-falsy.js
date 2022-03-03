@@ -1,6 +1,17 @@
-const age = 4;
+// Falsy:
+// 0
+// ""
+// undefined
+// null
+// NaN
+// Truthy:
+// "0"," "
+// [] 
+// {}
+let age = "0"
+// const name = 4;
 
-if (age > 0) {
+if (age) {
     console.log("condition is true");
 }
 else {
